@@ -16,7 +16,6 @@ require 'eb-bandsintown/event'
 require 'eb-bandsintown/venue'
 
 module Bandsintown
-  VERSION = '0.3.2'
   class APIError < StandardError; end
   class << self
     # All Bandsintown API requests require an app_id parameter for identification.
